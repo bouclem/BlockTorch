@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.0.4] - 2026-07-04
+
+### Added
+
+- Home view with app name, version, and Workspace button
+- Workspace Saves view with empty state and Continue/Back buttons
+- Workspace view with canvas, left sidebar (blocks), right sidebar (properties)
+- QStackedWidget navigation between views (Home → Saves → Workspace)
+- First run starts at Home view
+
 ## [0.0.3] - 2026-07-04
 
 ### Added

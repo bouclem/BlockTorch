@@ -1,6 +1,14 @@
 # TODO
 
-## v0.0.3 (In Progress)
+## v0.0.4 (In Progress)
+
+- [x] Home view (name, version, workspace button)
+- [x] Workspace Saves view (empty state, continue/back)
+- [x] Workspace view (canvas, left sidebar, right sidebar)
+- [x] QStackedWidget navigation
+- [x] First run starts at Home
+
+## v0.0.3 (Done)
 
 - [x] First window (dark theme, fullscreen, "BlockTorch" text)
 - [x] `docs/documentation/` folder

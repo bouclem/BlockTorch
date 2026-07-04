@@ -1,10 +1,17 @@
 #include "MainWindow.h"
+#include "HomeView.h"
+#include "WorkspaceSavesView.h"
+#include "WorkspaceView.h"
 
-#include <QLabel>
+#include <QApplication>
 #include <QPalette>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
+    , m_stacked(nullptr)
+    , m_homeIndex(0)
+    , m_savesIndex(0)
+    , m_workspaceIndex(0)
 {
     setupTheme();
     setupUI();
@@ -29,14 +36,30 @@ void MainWindow::setupTheme()
 
 void MainWindow::setupUI()
 {
-    auto *label = new QLabel("BlockTorch", this);
-    label->setAlignment(Qt::AlignCenter);
+    m_stacked = new QStackedWidget(this);
 
-    QFont font = label->font();
-    font.setPointSize(48);
-    font.setBold(true);
-    label->setFont(font);
+    auto *homeView = new HomeView(this);
+    auto *savesView = new WorkspaceSavesView(this);
+    auto *workspaceView = new WorkspaceView(this);
 
-    setCentralWidget(label);
+    m_homeIndex = m_stacked->addWidget(homeView);
+    m_savesIndex = m_stacked->addWidget(savesView);
+    m_workspaceIndex = m_stacked->addWidget(workspaceView);
+
+    m_stacked->setCurrentIndex(m_homeIndex);
+
+    setCentralWidget(m_stacked);
     setWindowTitle("BlockTorch");
+
+    connect(homeView, &HomeView::workspaceRequested, [this]() {
+        m_stacked->setCurrentIndex(m_savesIndex);
+    });
+
+    connect(savesView, &WorkspaceSavesView::continueRequested, [this]() {
+        m_stacked->setCurrentIndex(m_workspaceIndex);
+    });
+
+    connect(savesView, &WorkspaceSavesView::backRequested, [this]() {
+        m_stacked->setCurrentIndex(m_homeIndex);
+    });
 }

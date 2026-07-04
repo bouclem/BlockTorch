@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.21)
 
 project(BlockTorch
-    VERSION 0.0.2
+    VERSION 0.0.4
     DESCRIPTION "Visual block-based AI/ML/DL desktop application"
     LANGUAGES CXX
 )
