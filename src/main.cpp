@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
     app.setApplicationName("BlockTorch");
-    app.setApplicationVersion("0.0.5");
+    app.setApplicationVersion("0.0.6");
 
     MainWindow window;
     window.show();

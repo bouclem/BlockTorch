@@ -1,6 +1,13 @@
 # TODO
 
-## v0.0.5 (In Progress)
+## v0.0.6 (In Progress)
+
+- [x] Custom parameter input fields in right sidebar
+- [x] Drag & drop blocks from sidebar to canvas
+- [x] Windowed mode (resizable)
+- [x] Better interface styling
+
+## v0.0.5 (Done)
 
 - [x] Start and Stop blocks (add to canvas from left sidebar)
 - [x] Right sidebar: Params (estimated)

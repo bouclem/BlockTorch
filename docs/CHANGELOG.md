@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.0.6] - 2026-07-04
+
+### Added
+
+- Custom parameter input fields (layers, hidden size, vocab size, seq length, batch size) in right sidebar
+- Drag & drop support — drag Start/Stop blocks from left sidebar onto canvas
+- Windowed mode (resizable 1280x720, min 800x600) instead of forced fullscreen
+
+### Changed
+
+- Improved sidebar styling (section headers, borders, spacing)
+- Right sidebar widened to 280px for param inputs
+- Canvas hint text updated for drag & drop
+
 ## [0.0.5] - 2026-07-04
 
 ### Added

@@ -4,6 +4,20 @@ Tracking project size, complexity, and dependencies over time.
 
 ---
 
+## v0.0.6
+
+| Metric | Value |
+|---|---|
+| C++ source files | 17 (same files, updated) |
+| Python source files | 0 |
+| Test files | 0 |
+| Lines of code (C++) | ~350 |
+| Lines of code (Python) | 0 |
+| CMake files | 3 |
+| Documentation files | 7 |
+| License | Apache 2.0 |
+| Dependencies | Qt6 (Core, Gui, Widgets), GoogleTest (optional) |
+
 ## v0.0.5
 
 | Metric | Value |

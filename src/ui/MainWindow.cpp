@@ -15,7 +15,8 @@ MainWindow::MainWindow(QWidget *parent)
 {
     setupTheme();
     setupUI();
-    showFullScreen();
+    resize(1280, 720);
+    setMinimumSize(800, 600);
 }
 
 void MainWindow::setupTheme()
