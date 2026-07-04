@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.0.3] - 2026-07-04
+
+### Added
+
+- First application window (dark theme, fullscreen) with "BlockTorch" text
+- `src/main.cpp` entry point with QApplication
+- `src/ui/MainWindow.h` and `src/ui/MainWindow.cpp`
+- `docs/documentation/` folder for app usage docs (gitkeep only)
+- Apache 2.0 license (`LICENSE` file at root)
+
 ## [0.0.2] - 2026-07-04
 
 ### Added

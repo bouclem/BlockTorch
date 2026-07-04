@@ -1,6 +1,12 @@
 # TODO
 
-## v0.0.2 (In Progress)
+## v0.0.3 (In Progress)
+
+- [x] First window (dark theme, fullscreen, "BlockTorch" text)
+- [x] `docs/documentation/` folder
+- [x] Apache 2.0 license
+
+## v0.0.2 (Done)
 
 - [x] Set up CMake build system
 - [x] Add project documentation

@@ -29,8 +29,9 @@ BlockTorch/
 
 - **v0.0.1** — Project scaffolding (folders, .gitkeep, .gitignore)
 - **v0.0.2** — CMake build system, documentation
+- **v0.0.3** — First window (dark, fullscreen), Apache 2.0 license, docs/documentation/
 - **v0.1.0** — Choose datasets (HF datasets), choose params, choose architecture (transformer)
 
 ## License
 
-TBD
+Apache License 2.0 — see [LICENSE](../LICENSE)
