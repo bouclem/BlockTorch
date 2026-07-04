@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.0.5] - 2026-07-04
+
+### Added
+
+- Start and Stop blocks (first blocks, clickable in left sidebar to add to canvas)
+- Block base class with double-click signal
+- Right sidebar now shows Params (estimated)
+- `src/core/Params.h` / `Params.cpp` — generic parameter estimator with formatting (K/M/B)
+- Double-click Start block on canvas triggers param estimation and displays result
+
 ## [0.0.4] - 2026-07-04
 
 ### Added

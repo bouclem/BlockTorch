@@ -14,7 +14,7 @@ HomeView::HomeView(QWidget *parent)
     titleFont.setBold(true);
     title->setFont(titleFont);
 
-    auto *version = new QLabel("v0.0.4", this);
+    auto *version = new QLabel("v0.0.5", this);
     version->setAlignment(Qt::AlignCenter);
     QFont versionFont = version->font();
     versionFont.setPointSize(14);

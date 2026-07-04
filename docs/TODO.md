@@ -1,6 +1,13 @@
 # TODO
 
-## v0.0.4 (In Progress)
+## v0.0.5 (In Progress)
+
+- [x] Start and Stop blocks (add to canvas from left sidebar)
+- [x] Right sidebar: Params (estimated)
+- [x] `src/core/Params.cpp` — generic param estimator
+- [x] Double-click Start block runs param estimation
+
+## v0.0.4 (Done)
 
 - [x] Home view (name, version, workspace button)
 - [x] Workspace Saves view (empty state, continue/back)
